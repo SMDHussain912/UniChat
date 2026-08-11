@@ -1,0 +1,11 @@
+export const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:9121/api';
+export const SOCKET_URL = import.meta.env.VITE_SOCKET_URL || 'http://localhost:9121';
+export const APP_NAME = 'UniChat';
+export const TOKEN_KEY = 'token';
+export const USER_KEY = 'user';
+export const TYPING_TIMEOUT = 3000;
+export const MESSAGE_LIMIT = 50;
+export const PAGINATION_LIMIT = 50;
+export const RECONNECT_ATTEMPTS = 10;
+export const RECONNECT_DELAY = 1000;
+export const RECONNECT_DELAY_MAX = 5000;
